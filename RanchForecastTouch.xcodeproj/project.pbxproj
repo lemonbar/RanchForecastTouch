@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4AAE471978F4B50007C1F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4AAE461978F4B50007C1F0 /* UIKit.framework */; };
+		0B4AAE491978F4B50007C1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4AAE481978F4B50007C1F0 /* Foundation.framework */; };
+		0B4AAE4B1978F4B50007C1F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4AAE4A1978F4B50007C1F0 /* CoreGraphics.framework */; };
+		0B4AAE511978F4B50007C1F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B4AAE4F1978F4B50007C1F0 /* InfoPlist.strings */; };
+		0B4AAE531978F4B50007C1F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAE521978F4B50007C1F0 /* main.m */; };
+		0B4AAE571978F4B60007C1F0 /* RanchForecastTouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAE561978F4B60007C1F0 /* RanchForecastTouchAppDelegate.m */; };
+		0B4AAE591978F4B60007C1F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4AAE581978F4B60007C1F0 /* Default.png */; };
+		0B4AAE5B1978F4B60007C1F0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4AAE5A1978F4B60007C1F0 /* Default@2x.png */; };
+		0B4AAE5D1978F4B60007C1F0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4AAE5C1978F4B60007C1F0 /* Default-568h@2x.png */; };
+		0B4AAE661978F5150007C1F0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAE641978F5150007C1F0 /* RootViewController.m */; };
+		0B4AAE671978F5150007C1F0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4AAE651978F5150007C1F0 /* RootViewController.xib */; };
+		0B4AAE6A1978F8EC0007C1F0 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAE691978F8EC0007C1F0 /* ScheduleViewController.m */; };
+		0B4AAE6F1978F9990007C1F0 /* ScheduledClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAE6C1978F9990007C1F0 /* ScheduledClass.m */; };
+		0B4AAE701978F9990007C1F0 /* ScheduleFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4AAE6E1978F9990007C1F0 /* ScheduleFetcher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B4AAE421978F4B50007C1F0 /* RanchForecastTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecastTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4AAE461978F4B50007C1F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B4AAE481978F4B50007C1F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B4AAE4A1978F4B50007C1F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B4AAE4E1978F4B50007C1F0 /* RanchForecastTouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RanchForecastTouch-Info.plist"; sourceTree = "<group>"; };
+		0B4AAE501978F4B50007C1F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B4AAE521978F4B50007C1F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B4AAE541978F4B50007C1F0 /* RanchForecastTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RanchForecastTouch-Prefix.pch"; sourceTree = "<group>"; };
+		0B4AAE551978F4B50007C1F0 /* RanchForecastTouchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RanchForecastTouchAppDelegate.h; sourceTree = "<group>"; };
+		0B4AAE561978F4B60007C1F0 /* RanchForecastTouchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RanchForecastTouchAppDelegate.m; sourceTree = "<group>"; };
+		0B4AAE581978F4B60007C1F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0B4AAE5A1978F4B60007C1F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0B4AAE5C1978F4B60007C1F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0B4AAE631978F5150007C1F0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0B4AAE641978F5150007C1F0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0B4AAE651978F5150007C1F0 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		0B4AAE681978F8EC0007C1F0 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		0B4AAE691978F8EC0007C1F0 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		0B4AAE6B1978F9990007C1F0 /* ScheduledClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduledClass.h; sourceTree = "<group>"; };
+		0B4AAE6C1978F9990007C1F0 /* ScheduledClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduledClass.m; sourceTree = "<group>"; };
+		0B4AAE6D1978F9990007C1F0 /* ScheduleFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleFetcher.h; sourceTree = "<group>"; };
+		0B4AAE6E1978F9990007C1F0 /* ScheduleFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleFetcher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B4AAE3F1978F4B50007C1F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4AAE471978F4B50007C1F0 /* UIKit.framework in Frameworks */,
+				0B4AAE491978F4B50007C1F0 /* Foundation.framework in Frameworks */,
+				0B4AAE4B1978F4B50007C1F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4AAE371978F4B50007C1F0 = {
+			isa = PBXGroup;
+			children = (
+				0B4AAE631978F5150007C1F0 /* RootViewController.h */,
+				0B4AAE681978F8EC0007C1F0 /* ScheduleViewController.h */,
+				0B4AAE691978F8EC0007C1F0 /* ScheduleViewController.m */,
+				0B4AAE641978F5150007C1F0 /* RootViewController.m */,
+				0B4AAE651978F5150007C1F0 /* RootViewController.xib */,
+				0B4AAE4C1978F4B50007C1F0 /* RanchForecastTouch */,
+				0B4AAE451978F4B50007C1F0 /* Frameworks */,
+				0B4AAE431978F4B50007C1F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B4AAE431978F4B50007C1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B4AAE421978F4B50007C1F0 /* RanchForecastTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B4AAE451978F4B50007C1F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B4AAE461978F4B50007C1F0 /* UIKit.framework */,
+				0B4AAE481978F4B50007C1F0 /* Foundation.framework */,
+				0B4AAE4A1978F4B50007C1F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B4AAE4C1978F4B50007C1F0 /* RanchForecastTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0B4AAE6B1978F9990007C1F0 /* ScheduledClass.h */,
+				0B4AAE6C1978F9990007C1F0 /* ScheduledClass.m */,
+				0B4AAE6D1978F9990007C1F0 /* ScheduleFetcher.h */,
+				0B4AAE6E1978F9990007C1F0 /* ScheduleFetcher.m */,
+				0B4AAE551978F4B50007C1F0 /* RanchForecastTouchAppDelegate.h */,
+				0B4AAE561978F4B60007C1F0 /* RanchForecastTouchAppDelegate.m */,
+				0B4AAE4D1978F4B50007C1F0 /* Supporting Files */,
+			);
+			path = RanchForecastTouch;
+			sourceTree = "<group>";
+		};
+		0B4AAE4D1978F4B50007C1F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B4AAE4E1978F4B50007C1F0 /* RanchForecastTouch-Info.plist */,
+				0B4AAE4F1978F4B50007C1F0 /* InfoPlist.strings */,
+				0B4AAE521978F4B50007C1F0 /* main.m */,
+				0B4AAE541978F4B50007C1F0 /* RanchForecastTouch-Prefix.pch */,
+				0B4AAE581978F4B60007C1F0 /* Default.png */,
+				0B4AAE5A1978F4B60007C1F0 /* Default@2x.png */,
+				0B4AAE5C1978F4B60007C1F0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B4AAE411978F4B50007C1F0 /* RanchForecastTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B4AAE601978F4B60007C1F0 /* Build configuration list for PBXNativeTarget "RanchForecastTouch" */;
+			buildPhases = (
+				0B4AAE3E1978F4B50007C1F0 /* Sources */,
+				0B4AAE3F1978F4B50007C1F0 /* Frameworks */,
+				0B4AAE401978F4B50007C1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanchForecastTouch;
+			productName = RanchForecastTouch;
+			productReference = 0B4AAE421978F4B50007C1F0 /* RanchForecastTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B4AAE391978F4B50007C1F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RanchForecastTouch;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Meng Li";
+			};
+			buildConfigurationList = 0B4AAE3C1978F4B50007C1F0 /* Build configuration list for PBXProject "RanchForecastTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B4AAE371978F4B50007C1F0;
+			productRefGroup = 0B4AAE431978F4B50007C1F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B4AAE411978F4B50007C1F0 /* RanchForecastTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B4AAE401978F4B50007C1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4AAE511978F4B50007C1F0 /* InfoPlist.strings in Resources */,
+				0B4AAE591978F4B60007C1F0 /* Default.png in Resources */,
+				0B4AAE5B1978F4B60007C1F0 /* Default@2x.png in Resources */,
+				0B4AAE5D1978F4B60007C1F0 /* Default-568h@2x.png in Resources */,
+				0B4AAE671978F5150007C1F0 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B4AAE3E1978F4B50007C1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4AAE531978F4B50007C1F0 /* main.m in Sources */,
+				0B4AAE571978F4B60007C1F0 /* RanchForecastTouchAppDelegate.m in Sources */,
+				0B4AAE661978F5150007C1F0 /* RootViewController.m in Sources */,
+				0B4AAE6A1978F8EC0007C1F0 /* ScheduleViewController.m in Sources */,
+				0B4AAE6F1978F9990007C1F0 /* ScheduledClass.m in Sources */,
+				0B4AAE701978F9990007C1F0 /* ScheduleFetcher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B4AAE4F1978F4B50007C1F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B4AAE501978F4B50007C1F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B4AAE5E1978F4B60007C1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B4AAE5F1978F4B60007C1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B4AAE611978F4B60007C1F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RanchForecastTouch/RanchForecastTouch-Prefix.pch";
+				INFOPLIST_FILE = "RanchForecastTouch/RanchForecastTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B4AAE621978F4B60007C1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RanchForecastTouch/RanchForecastTouch-Prefix.pch";
+				INFOPLIST_FILE = "RanchForecastTouch/RanchForecastTouch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B4AAE3C1978F4B50007C1F0 /* Build configuration list for PBXProject "RanchForecastTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4AAE5E1978F4B60007C1F0 /* Debug */,
+				0B4AAE5F1978F4B60007C1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B4AAE601978F4B60007C1F0 /* Build configuration list for PBXNativeTarget "RanchForecastTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B4AAE611978F4B60007C1F0 /* Debug */,
+				0B4AAE621978F4B60007C1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B4AAE391978F4B50007C1F0 /* Project object */;
+}
